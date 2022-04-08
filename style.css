@@ -1,0 +1,25 @@
+.ae-widget__slider {
+	display: flex;
+	overflow-x: scroll;
+	overflow-y: visible;
+	width: 100%;
+	height: 180px;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+	cursor: grab;
+	user-select: none;
+}
+.ae-widget__slider::-webkit-scrollbar {
+	display: none;
+}
+.ae-widget__slider-item {
+	min-width: 630px;
+	height: 100%;
+	scroll-snap-align: start;
+	background-size: cover;
+	border-radius: 15px;
+	margin-right: 15px;
+}
+.ae-widget__slider-item:last-child {
+	margin-right: 0;
+}
